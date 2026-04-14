@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import koreanize_matplotlib
 
 # 웹 페이지의 탭 이름과 기본 레이아웃을 넓게(wide) 설정합니다.
 st.set_page_config(page_title="우유 소비 대시보드", layout="wide")
